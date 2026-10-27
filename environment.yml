@@ -1,0 +1,17 @@
+name: ccpd2020-rpnet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch>=2.3
+  - pytorch-cuda=12.1
+  - numpy>=1.24
+  - opencv>=4.8
+  - pillow>=9.5
+  - pyyaml>=6.0
+  - tqdm>=4.65
+  - matplotlib>=3.7
+  - python-pptx>=1.0
+

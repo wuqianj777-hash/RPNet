@@ -1,0 +1,16 @@
+seed: 2026
+data_root: CCPD2020/ccpd_green
+output_dir: outputs
+image_size: [256, 416]
+roi_size: [8, 20]
+batch_size: 64
+num_workers: 4
+det_epochs: 5
+joint_epochs: 20
+finetune_epochs: 5
+learning_rate: 0.001
+finetune_learning_rate: 0.0002
+weight_decay: 0.0001
+box_loss_weight: 5.0
+amp: true
+preprocess: none
